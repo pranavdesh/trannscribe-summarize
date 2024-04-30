@@ -1,0 +1,35 @@
+{
+    "openai":{
+        "models": {
+            "gpt_3.5_turbo": {
+                "context_window": 16385,
+                "tpm":60000,
+                "rpm":500,
+                "rpd":10000
+            },
+            "gpt_4_turbo": {
+                "context_window": 128000,
+                "tpm":300000,
+                "rpm":500,
+                "rpd":10000
+            }
+    }
+},
+"anthropic":{
+    "models":{
+        "claude_3_opus":{
+            "context_window": 200000,
+            "tpm":10000,
+            "rpm":5,
+            "tpd":300000
+        },
+        "claude_3_sonnet":{
+            "context_window": 200000,
+            "tpm":20000,
+            "rpm":5,
+            "tpd":300000
+        }
+    }
+}
+    
+}
