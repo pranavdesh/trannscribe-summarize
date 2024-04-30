@@ -2,11 +2,11 @@ A script to test transcription and summarization for podcasts, interviews, and o
 
 **Usage**
 
-`npm install`
-`node index.js 'path_to_audio_file' 'path_to_prompt_file' 'transcription_provider' 'summarization_provider'`
+- `npm install`
+- `node index.js 'path_to_audio_file' 'path_to_prompt_file' 'transcription_provider' 'summarization_provider'`
 
 - Pick between AssemblyAI or OpenAI for transcription by using 'assemblyai' or 'openai' as the transcription provider.
-  - Install ffmpeg ( brew install ffmpeg ) if using OpenAI for transcription because it's required for splitting the audio file using `fluent-ffmpeg`.
+  - Install ffmpeg ( `brew install ffmpeg` ) if using OpenAI for transcription because it's required for splitting the audio file using `fluent-ffmpeg`.
 - Pick between OpenAI or Anthropic for summarization by using 'openai' or 'anthropic' as the summarization provider.
 
 Create a .env file and add your API keys:
