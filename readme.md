@@ -10,11 +10,12 @@ A script to test transcription and summarization for podcasts, interviews, and o
 - Pick between OpenAI or Anthropic for summarization by using 'openai' or 'anthropic' as the summarization provider.
 
 Create a .env file and add your API keys:
-OPENAI_API_KEY=''
-ASSEMBLYAI_API_KEY=''
-ANTHROPIC_API_KEY=' '
-TRANSCRIPTS_FOLDER=' ' (where new transcripts will be stored)
-SUMMARIES_FOLDER=' ' (where final summaries will be stored)
+
+- OPENAI_API_KEY=''
+- ASSEMBLYAI_API_KEY=''
+- ANTHROPIC_API_KEY=' '
+- TRANSCRIPTS_FOLDER=' ' (where new transcripts will be stored)
+- SUMMARIES_FOLDER=' ' (where final summaries will be stored)
 
 **Limits**
 
